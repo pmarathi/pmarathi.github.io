@@ -1,66 +1,72 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Pavan Marathi</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-        <style>
-            .navbar-custom {
-                background-color: #008b8b;
-            }
-            .navbar-custom .navbar-brand,
-            .navbar-custom .navbar-text {
-                /* color: #008b8b; */
-                color: white;
-            }
-            .btn.navbar-custom {
-                color: white !important;
-            }
-            .navbar-custom p {
-                color: white;
-            }
-        </style>
-                
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
-                <!-- <a class="navbar-brand h3 lead mr-auto align-middle" href="index.html">Pavan Marathi</a> -->
-                <!-- bad since this doesn't work locally but I don't care -->
-                <a class="navbar-brand h3 lead mr-auto align-middle" href="https://pmarathi.github.io/">Pavan Marathi</a>
-            </nav>
-        </header>
-        <main class="container" role="main">
-            <div class="jumbotron bg-dark text-light mt-3 pt-3 pb-3 d-flex flex-column">
-                <div class="d-flex flex-row">
-                    <h1 class="display-4">Hi, I'm Pavan! I study Computer Science.</h1>
-                    <div class="p-1" style="width:12rem;">
-                        <img src="pavan.jpg" class="img-fluid rounded-circle">
-                    </div>
-                </div>
-                <div class="d-flex flex-column">
-                    <div class="p-2">
-                        <p class="lead">I'm a student at <a style="color:#00aeae" href="https://www.cs.utexas.edu/">The University of Texas at Austin</a> and a teaching assistant for <a style="color:#00aeae" href="https://www.cs.utexas.edu/~scottm/cs314/">Data Structures</a>.</p>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pavan Marathi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <style>
+        .navbar-custom {
+            background-color: #008b8b;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: white;
+        }
+        .btn.navbar-custom {
+            color: white !important;
+        }
+        .navbar-custom p {
+            color: white;
+        }
+        .img-wrap {
+            float: right;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+        .img-wrap img {
+            width: 12rem;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+            <a class="navbar-brand h3 lead mr-auto align-middle" href="https://pmarathi.github.io/">Pavan Marathi</a>
+        </nav>
+    </header>
 
-                        <p class="lead">The past two summers, I worked as a software engineer intern at <a style="color:#00aeae" href="https://www.wellsfargo.com/">Wells Fargo</a>
-                             where I worked on securely automating the car loan process and securing internal systems.
-                            Some of my recent interests include cyber security and networking.</p>
-                        <p class="lead">I am also a part of the <a style="color:#00aeae" href="https://www.strausscenter.org/cybersecurity/apply-here-cyber-clinic/">Strauss Cybersecurity Community Clinic</a>
-                             where I work to provide cyber security support to communities.</p>
-                        <p class="lead">Most of my experience is in Java, C++/C/Assembly, Python, and JavaScript, however I'm always working to expand this list.</p>
-                        <!-- <p class="lead">Outside of Computer Science, I enjoy rock climbing and board games.</p> -->
+    <main class="container" role="main">
+        <div class="jumbotron bg-dark text-light mt-3 pt-3 pb-3 d-flex flex-column">
+            <div class="d-flex flex-row">
+                <h1 class="display-4">Hi, I'm Pavan!</h1>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <div class="img-wrap">
+                        <img src="pavan.jpg" alt="Pavan">
                     </div>
-                    <div class="d-flex flex-row">
-                        <a href="https://github.com/pmarathi" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">GitHub</a>
-                        <a href="https://www.linkedin.com/in/pavan-marathi" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">LinkedIn</a>
-                        <a href="resume_pavan_marathi.pdf" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">Resume</a>
-                        <a href="projects.html" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">Projects</a>
-                    </div>                    
+                    <p class="lead">I'm a student at <a style="color:#00aeae" href="https://www.cs.utexas.edu/">The University of Texas at Austin</a> and a teaching assistant for <a style="color:#00aeae" href="https://www.cs.utexas.edu/~scottm/cs314/">Data Structures</a>.</p>
+
+                    <p class="lead">The past two summers, I worked as a software engineer intern at <a style="color:#00aeae" href="https://www.wellsfargo.com/">Wells Fargo</a>
+                        where I worked on securely automating the car loan process and securing internal systems.
+                        Some of my recent interests include cyber security and networking.</p>
+                    <p class="lead">I am also a part of the <a style="color:#00aeae" href="https://www.strausscenter.org/cybersecurity/apply-here-cyber-clinic/">Strauss Cybersecurity Community Clinic</a>
+                        where I work to provide cyber security support to communities.</p>
+                    <p class="lead">Most of my experience is in Java, C++/C/Assembly, Python, and JavaScript, however I'm always working to expand this list.</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <a href="https://github.com/pmarathi" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pavan-marathi" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">LinkedIn</a>
+                    <a href="resume_pavan_marathi.pdf" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">Resume</a>
+                    <a href="projects.html" type="button" class="btn navbar-custom text-dark mx-auto" style="width:13rem; color: white;">Projects</a>
                 </div>
             </div>
-        </main>
-    </body>
+        </div>
+    </main>
+</body>
 </html>
